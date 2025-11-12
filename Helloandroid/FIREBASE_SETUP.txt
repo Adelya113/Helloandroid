@@ -1,0 +1,7 @@
+Firebase quick setup:
+1) console.firebase.google.com → New project "Helloandroid"
+2) Add Android app: package com.example.helloandroid
+3) Download google-services.json → place under app/
+4) Root build.gradle.kts has Google Services plugin (apply false)
+5) app/build.gradle.kts applies plugin and adds Firebase BOM + Analytics
+6) Sync & run

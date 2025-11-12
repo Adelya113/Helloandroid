@@ -1,0 +1,53 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="🐾 Жануарлар галереясы"
+            android:textSize="22sp"
+            android:layout_marginBottom="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/imgCat"
+            android:contentDescription="Мысық"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="#E0E0E0"
+            android:layout_margin="8dp"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:id="@+id/imgDog"
+            android:contentDescription="Ит"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="#E0E0E0"
+            android:layout_margin="8dp"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:id="@+id/imgBird"
+            android:contentDescription="Құс"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="#E0E0E0"
+            android:layout_margin="8dp"
+            android:scaleType="centerCrop" />
+
+        <Button
+            android:id="@+id/btnAddImages"
+            android:text="Суреттерді қосу"
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>
